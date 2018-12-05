@@ -21,9 +21,9 @@ import java.util.*;
  */
 public class CodeGenerator {
     /** JDBC配置，请修改为你项目的实际配置 */
-    private static final String JDBC_URL = "jdbc:postgresql://121.40.25.65:5432/zhima?useSSL=false";
-    private static final String JDBC_USERNAME = "zhima";
-    private static final String JDBC_PASSWORD = "yaozhi_huojutech!123";
+    private static final String JDBC_URL = "jdbc:postgresql://127.0.0.1:5432/pgsql?useSSL=false";
+    private static final String JDBC_USERNAME = "postgresql";
+    private static final String JDBC_PASSWORD = "postgresql";
     private static final String JDBC_DIVER_CLASS_NAME = "org.postgresql.Driver";
 
     /** 项目在硬盘上的基础路径 */
